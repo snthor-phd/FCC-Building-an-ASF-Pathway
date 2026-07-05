@@ -16,7 +16,7 @@ and strengths of the leaders who join.
 ## Sections
 
 1. **The organizing question** — pathway over curriculum
-2. **The formation ecology** — six core practices (Scripture, prayer, community, generosity, serving, apprenticeship)
+2. **The formation ecology** — seven core practices (Scripture, prayer, community, generosity, serving, apprenticeship, personal testimony)
 3. **Gaps we sense** at Faircreek
 4. **A first-year approach** — short, repeatable, leader-led modules
 5. **Foundations as an idea scaffold** — our existing series, to adapt / scale / fold in
