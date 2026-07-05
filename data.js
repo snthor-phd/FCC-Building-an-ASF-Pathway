@@ -6,7 +6,7 @@
 window.PATHWAY = {
   title: "Building a Formation Pathway",
   subtitle:
-    "We're not choosing another curriculum. We're building a reproducible way to help adults at Faircreek learn, practice, and sustain the rhythms of life with Christ — and we want to build it with you.",
+    "We're not choosing another curriculum. We're building a sustainable way to help adults at Faircreek learn, practice, and continue the rhythms of life with Christ — and we want to build it with you.",
   intro:
     "This is a working sketch, not a finished plan. It names where we think God is leading, the gaps we sense, and a two-year approach. Everything here is meant to be tested, added to, and reshaped by the passions and strengths of the leaders who join. Come help us discover what Faircreek adults need — and where you might serve.",
 
