@@ -87,6 +87,27 @@
   .prac h4{margin:0 0 7px;font-size:17px;font-weight:700}
   .prac p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.55}
   .footnote{text-align:center;color:var(--muted);font-size:13.5px;max-width:760px;margin:26px auto 0;font-style:italic}
+  .prac{position:relative}
+  .yearbadge{position:absolute;top:16px;right:16px;font-family:var(--head);font-weight:700;font-size:10px;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--c);background:#fff;border:1px solid var(--c);
+    border-radius:999px;padding:3px 9px;opacity:.9}
+
+  /* Two-year roadmap */
+  .years{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .yr{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);
+    border-top:5px solid var(--c);display:flex;flex-direction:column}
+  .yr-head{padding:26px 26px 20px;background:var(--c);color:#fff;position:relative;overflow:hidden}
+  .yr-head::after{content:"";position:absolute;right:-30px;top:-30px;width:150px;height:150px;border-radius:50%;background:rgba(255,255,255,.08)}
+  .yr-head .yl{font-family:var(--head);font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;opacity:.9;margin:0 0 4px}
+  .yr-head h3{margin:0;font-size:26px;font-weight:800;position:relative;z-index:1}
+  .yr-head .theme{margin:6px 0 0;font-size:14px;opacity:.95;font-family:var(--head);font-weight:600}
+  .yr-body{padding:22px 26px 26px;flex:1;display:flex;flex-direction:column}
+  .yr-practices{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+  .yr-practices span{font-family:var(--head);font-size:12.5px;font-weight:600;color:var(--c);background:var(--bg);
+    border:1px solid var(--line);border-radius:999px;padding:6px 13px}
+  .yr-body p{margin:auto 0 0;color:var(--muted);font-size:14px;line-height:1.6}
+  table.rmap td.prac-cell .yr-tag{display:inline-block;margin-left:8px;font-family:var(--body);font-weight:700;
+    font-size:9.5px;letter-spacing:.04em;color:#fff;background:var(--c);border-radius:999px;padding:2px 7px;vertical-align:middle}
 
   /* Gaps */
   .gaps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -189,6 +210,7 @@
 
   @media(max-width:860px){
     .ecology{grid-template-columns:1fr 1fr}
+    .years{grid-template-columns:1fr}
     .gaps{grid-template-columns:1fr}
     .how{grid-template-columns:repeat(2,1fr)}
     .prompts{grid-template-columns:1fr}
@@ -216,8 +238,9 @@
     <h1 id="t"></h1>
     <p class="sub" id="s"></p>
     <div class="meta-row">
-      <span class="pill"><b>Pathway</b>&nbsp; over curriculum</span>
+      <span class="pill"><b>2</b>&nbsp; years</span>
       <span class="pill"><b>7</b>&nbsp; core practices</span>
+      <span class="pill"><b>Pathway</b>&nbsp; over curriculum</span>
       <span class="pill"><b>Built</b>&nbsp; with you</span>
     </div>
   </div>
@@ -255,13 +278,21 @@
 
 <section>
   <div class="wrap">
+    <h2 class="section-title" id="rdEyebrow"></h2>
+    <p class="section-sub" id="rdSub"></p>
+    <div class="years" id="years"></div>
+  </div>
+</section>
+
+<section style="background:#eef1f5">
+  <div class="wrap">
     <h2 class="section-title" id="gapEyebrow"></h2>
     <p class="section-sub" id="gapSub"></p>
     <div class="gaps" id="gaps"></div>
   </div>
 </section>
 
-<section style="background:#eef1f5">
+<section>
   <div class="wrap">
     <h2 class="section-title" id="modelEyebrow"></h2>
     <p class="section-sub" id="modelSub"></p>
@@ -270,7 +301,7 @@
   </div>
 </section>
 
-<section>
+<section style="background:#eef1f5">
   <div class="wrap">
     <h2 class="section-title" id="fEyebrow"></h2>
     <div style="height:8px"></div>
@@ -283,7 +314,7 @@
   </div>
 </section>
 
-<section style="background:#eef1f5">
+<section>
   <div class="wrap">
     <h2 class="section-title" id="rmEyebrow"></h2>
     <p class="section-sub" id="rmSub"></p>
@@ -382,9 +413,23 @@
   P.ecology.practices.forEach(pr=>{
     const d = document.createElement("div");
     d.className = "prac"; d.style.setProperty("--c", pr.color);
-    d.innerHTML = `<div class="ic"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">${ICONS[pr.icon]||""}</svg></div>
+    const yb = pr.year ? `<span class="yearbadge">Year ${pr.year}</span>` : "";
+    d.innerHTML = `${yb}<div class="ic"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">${ICONS[pr.icon]||""}</svg></div>
       <h4>${pr.name}</h4><p>${pr.note}</p>`;
     eco.appendChild(d);
+  });
+
+  // Two-year roadmap
+  set("rdEyebrow", P.roadmap.eyebrow);
+  set("rdSub", P.roadmap.sub);
+  const yrs = document.getElementById("years");
+  P.roadmap.years.forEach(y=>{
+    const d = document.createElement("div");
+    d.className = "yr"; d.style.setProperty("--c", y.color);
+    const chips = y.practices.map(p=>`<span>${p}</span>`).join("");
+    d.innerHTML = `<div class="yr-head"><p class="yl">${y.practices.length} practices</p><h3>${y.label}</h3><p class="theme">${y.tag}</p></div>
+      <div class="yr-body"><div class="yr-practices">${chips}</div><p>${y.note}</p></div>`;
+    yrs.appendChild(d);
   });
 
   // Gaps
@@ -429,7 +474,8 @@
   P.resourceMap.rows.forEach(r=>{
     const tr = document.createElement("tr");
     if (r.review) tr.className = "review";
-    const chip = r.review ? `<span class="review-chip">Under review</span>` : "";
+    const chip = r.review ? `<span class="review-chip">Under review</span>`
+      : (r.year ? `<span class="yr-tag">Yr ${r.year}</span>` : "");
     tr.innerHTML = `<td class="prac-cell" style="--c:${r.color}">${r.practice}${chip}</td>${cell(r.fdn)}${cell(r.bp)}${cell(r.ptw)}`;
     rmBody.appendChild(tr);
   });

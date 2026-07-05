@@ -1,9 +1,11 @@
 # Building an Adult Spiritual Formation Pathway — Faircreek Church
 
 An interactive **working sketch** for Faircreek Church's effort to build a reproducible adult
-spiritual formation pathway. Designed as a shared reference for an initial conversation with
-potential teachers and idea shapers — the pathway will take its final shape around the passions
-and strengths of the leaders who join.
+spiritual formation pathway over **two years** — Year One roots people in the way of Jesus
+(Apprenticeship/The Way, Scripture, Prayer, Community); Year Two sends them outward (Serving,
+Personal Testimony/Witness, Generosity). Designed as a shared reference for an initial
+conversation with potential teachers and idea shapers — the pathway will take its final shape
+around the passions and strengths of the leaders who join.
 
 **Live site:** https://snthor-phd.github.io/FCC-Building-an-ASF-Pathway/
 
@@ -16,13 +18,15 @@ and strengths of the leaders who join.
 ## Sections
 
 1. **The organizing question** — pathway over curriculum
-2. **The formation ecology** — seven core practices (Scripture, prayer, community, generosity, serving, apprenticeship, personal testimony)
-3. **Gaps we sense** at Faircreek
-4. **A first-year approach** — short, repeatable, leader-led modules
-5. **Foundations as an idea scaffold** — our existing series, to adapt / scale / fold in
-6. **Our first conversation** — the discovery/reflection prompts
-7. **The plan, sketched** — action steps and open decisions
-8. **The invitation**
+2. **The formation ecology** — seven core practices, tagged by year: Year One (Apprenticeship/The Way, Scripture, Prayer, Community) and Year Two (Serving, Personal Testimony/Witness, Generosity)
+3. **The two-year roadmap** — Year One "Rooted" and Year Two "Sent"
+4. **Gaps we sense** at Faircreek
+5. **A two-year approach** — short, repeatable, leader-led six-week modules
+6. **Foundations as an idea scaffold** — our existing series, to adapt / scale / fold in
+7. **Resources ↔ Practices** — mapping table (Foundations / BibleProject / Practicing the Way), plus Sabbath, Solitude, Fasting under review
+8. **Our first conversation** — the discovery/reflection prompts
+9. **The plan, sketched** — action steps and open decisions
+10. **The invitation**
 
 ## How to update
 

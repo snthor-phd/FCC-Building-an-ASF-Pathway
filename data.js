@@ -8,7 +8,7 @@ window.PATHWAY = {
   subtitle:
     "We're not choosing another curriculum. We're building a reproducible way to help adults at Faircreek learn, practice, and sustain the rhythms of life with Christ — and we want to build it with you.",
   intro:
-    "This is a working sketch, not a finished plan. It names where we think God is leading, the gaps we sense, and a first-year approach. Everything here is meant to be tested, added to, and reshaped by the passions and strengths of the leaders who join. Come help us discover what Faircreek adults need — and where you might serve.",
+    "This is a working sketch, not a finished plan. It names where we think God is leading, the gaps we sense, and a two-year approach. Everything here is meant to be tested, added to, and reshaped by the passions and strengths of the leaders who join. Come help us discover what Faircreek adults need — and where you might serve.",
 
   // The organizing question
   thesis: {
@@ -23,18 +23,33 @@ window.PATHWAY = {
   ecology: {
     eyebrow: "The Formation Ecology",
     sub:
-      "The rhythms through which the Holy Spirit ordinarily forms believers. These are the core first-year practices — we apprentice people INTO them, not merely inform them ABOUT them.",
+      "The rhythms through which the Holy Spirit ordinarily forms believers. We apprentice people INTO these seven practices — not merely inform them ABOUT them — sequenced across two years: Year One roots, Year Two sends.",
     practices: [
-      { icon: "book", color: "#ef7d10", name: "Scripture", note: "Learning to read the Bible regularly, intelligently, and transformatively — not just affirming it." },
-      { icon: "pray", color: "#3f6d8e", name: "Prayer", note: "A practiced rhythm: listening, honest dependence, expectancy — and help for those uncomfortable praying aloud." },
-      { icon: "people", color: "#4f8a72", name: "Community", note: "Community as a spiritual practice and formation environment, not an optional program to join." },
-      { icon: "gift", color: "#2f3e57", name: "Generosity", note: "Generous stewardship as a formed habit of the heart, woven into everyday discipleship." },
-      { icon: "hands", color: "#b7791f", name: "Serving", note: "Embodied service where faith is practiced, not merely discussed." },
-      { icon: "seed", color: "#7d5ba6", name: "Apprenticeship", note: "Local, credible people who model the practices — seeing and doing, not just hearing content." },
-      { icon: "voice", color: "#2f7d7d", name: "Personal Testimony", note: "Developing the skill of giving an answer for the joy that is in us. Others are drawn by the testimony of God's handiwork in our current lives." }
+      { icon: "seed", color: "#7d5ba6", year: 1, name: "Apprenticeship / The Way", note: "Local, credible people who model the practices — seeing and doing, not just hearing content." },
+      { icon: "book", color: "#ef7d10", year: 1, name: "Scripture", note: "Learning to read the Bible regularly, intelligently, and transformatively — not just affirming it." },
+      { icon: "pray", color: "#3f6d8e", year: 1, name: "Prayer", note: "A practiced rhythm: listening, honest dependence, expectancy — and help for those uncomfortable praying aloud." },
+      { icon: "people", color: "#4f8a72", year: 1, name: "Community", note: "Community as a spiritual practice and formation environment, not an optional program to join." },
+      { icon: "hands", color: "#b7791f", year: 2, name: "Serving", note: "Embodied service where faith is practiced, not merely discussed." },
+      { icon: "voice", color: "#2f7d7d", year: 2, name: "Personal Testimony / Witness", note: "Developing the skill of giving an answer for the joy that is in us. Others are drawn by the testimony of God's handiwork in our current lives." },
+      { icon: "gift", color: "#2f3e57", year: 2, name: "Generosity", note: "Generous stewardship as a formed habit of the heart, woven into everyday discipleship." }
     ],
     footnote:
       "Fasting and other classic practices may be added after theological and practical review. Marriage and parenting may emerge if leaders identify them as urgent Faircreek needs."
+  },
+
+  // Two-year roadmap
+  roadmap: {
+    eyebrow: "The Two-Year Roadmap",
+    sub:
+      "We build the pathway over two years — beginning with the practices that root people in the way of Jesus, then extending outward into witness and mission. The sequence is a starting frame; leaders' passions and Faircreek's needs will shape the calendar.",
+    years: [
+      { label: "Year One", tag: "Rooted — being with Jesus", color: "#3f6d8e",
+        practices: ["Apprenticeship / The Way", "Scripture", "Prayer", "Community"],
+        note: "Start where formation starts: apprenticeship to Jesus and the inner rhythms — Scripture, prayer, and life together — that ground everything else." },
+      { label: "Year Two", tag: "Sent — living as Jesus did", color: "#b7791f",
+        practices: ["Serving", "Personal Testimony / Witness", "Generosity"],
+        note: "Extend the practices outward: serving others, giving an answer for the joy in us, and generous stewardship as a way of life." }
+    ]
   },
 
   // Diagnosed gaps
@@ -54,14 +69,14 @@ window.PATHWAY = {
 
   // First-year model
   model: {
-    eyebrow: "A First-Year Approach",
+    eyebrow: "A Two-Year Approach",
     sub:
-      "Short, repeatable modules led by spiritually credible people. Familiar enough that participants know what to expect — flexible enough that teacher passion and emphasis can vary.",
+      "Short, repeatable modules led by spiritually credible people, sequenced across two years. Familiar enough that participants know what to expect — flexible enough that teacher passion and emphasis can vary.",
     cards: [
       { k: "6", title: "Six-week modules", note: "The preferred working unit. Co-leaders may split the load — three weeks each as a minimum contribution." },
-      { k: "5", title: "Core content areas", note: "Scripture, prayer, community, generosity, and serving to start. Others added after review." },
-      { k: "★", title: "Let leaders lead", note: "We give support, a template, and a clear outcome — but don't over-control style or content in the pilot year." },
-      { k: "↻", title: "Build toward replication", note: "At year's end we gather notes, outlines, and lessons into a reusable Faircreek format — replication, not uniformity." }
+      { k: "2", title: "Two-year arc", note: "Year One roots people in the way of Jesus (apprenticeship, Scripture, prayer, community); Year Two sends them outward (serving, witness, generosity)." },
+      { k: "★", title: "Let leaders lead", note: "We give support, a template, and a clear outcome — but don't over-control style or content in the pilot." },
+      { k: "↻", title: "Build toward replication", note: "As each year closes we gather notes, outlines, and lessons into a reusable Faircreek format — replication, not uniformity." }
     ],
     note:
       "A school analogy from our conversation: high school feels coherent because the structure is familiar; college can feel chaotic because every professor runs class differently. Our modules should preserve teacher variety without structural whiplash for participants."
@@ -86,34 +101,34 @@ window.PATHWAY = {
       "Each resource plays a different role. Foundations is our adaptable scaffold (what we already have); BibleProject supplies the biblical theology behind a practice (the why, rooted in the whole Bible story); Practicing the Way supplies the how-to. This is a first read for the teachers reviewing resources — expect it to change.",
     columns: ["Practice", "Foundations — our scaffold", "BibleProject — theology / why", "Practicing the Way — the practice"],
     rows: [
-      { practice: "Scripture", color: "#ef7d10",
-        fdn: "Touched in “Establish Spiritual Habits”",
-        bp: "Core strength — How to Read the Bible, book overviews, classes, Public Reading of Scripture theme",
-        ptw: "The Scripture Practice" },
-      { practice: "Prayer", color: "#3f6d8e",
-        fdn: "Prayer as a spiritual habit",
-        bp: "Lord's Prayer video series + podcast episodes",
-        ptw: "The Prayer Practice" },
-      { practice: "Community", color: "#4f8a72",
-        fdn: "“Our New Family” (new identity)",
-        bp: "Built for group discussion (no named theme)",
-        ptw: "The Community Practice" },
-      { practice: "Generosity", color: "#2f3e57",
-        fdn: "—",
-        bp: "Generosity theme video",
-        ptw: "The Generosity Practice" },
-      { practice: "Serving", color: "#b7791f",
-        fdn: "—",
-        bp: "Justice theme video",
-        ptw: "The Service Practice" },
-      { practice: "Apprenticeship", color: "#7d5ba6",
+      { practice: "Apprenticeship / The Way", color: "#7d5ba6", year: 1,
         fdn: "“How to Follow Jesus”",
         bp: "Sermon on the Mount collection (the way of Jesus)",
         ptw: "Whole framework + The Course (apprenticeship to Jesus)" },
-      { practice: "Personal Testimony", color: "#2f7d7d",
+      { practice: "Scripture", color: "#ef7d10", year: 1,
+        fdn: "Touched in “Establish Spiritual Habits”",
+        bp: "Core strength — How to Read the Bible, book overviews, classes, Public Reading of Scripture theme",
+        ptw: "The Scripture Practice" },
+      { practice: "Prayer", color: "#3f6d8e", year: 1,
+        fdn: "Prayer as a spiritual habit",
+        bp: "Lord's Prayer video series + podcast episodes",
+        ptw: "The Prayer Practice" },
+      { practice: "Community", color: "#4f8a72", year: 1,
+        fdn: "“Our New Family” (new identity)",
+        bp: "Built for group discussion (no named theme)",
+        ptw: "The Community Practice" },
+      { practice: "Serving", color: "#b7791f", year: 2,
+        fdn: "—",
+        bp: "Justice theme video",
+        ptw: "The Service Practice" },
+      { practice: "Personal Testimony / Witness", color: "#2f7d7d", year: 2,
         fdn: "—",
         bp: "—",
         ptw: "The Witness Practice" },
+      { practice: "Generosity", color: "#2f3e57", year: 2,
+        fdn: "—",
+        bp: "Generosity theme video",
+        ptw: "The Generosity Practice" },
       { practice: "Sabbath", color: "#8d9db7", review: true,
         fdn: "—",
         bp: "Sabbath theme video",
@@ -156,9 +171,9 @@ window.PATHWAY = {
       { n: 2, owner: "Dr. T + Matt", text: "Draft a one-page “why this meeting / what we expect” page.", when: "Before invites" },
       { n: 3, owner: "Matt", text: "Invite the exploratory group — elders & wives, former elders, deacon-like leaders, potential teachers.", when: "~5-week window" },
       { n: 4, owner: "Dr. T", text: "Facilitate the discovery meeting — written needs, passions, possible teachers, first modules.", when: "When scheduled" },
-      { n: 5, owner: "Dr. T + Matt + volunteers", text: "Build the first-year pilot calendar — six-week modules with co-leaders and resources.", when: "After discovery" },
-      { n: 6, owner: "Each module", text: "Capture curriculum artifacts — notes, outlines, resource links, session patterns.", when: "During pilot" },
-      { n: 7, owner: "ASF team", text: "Reconcile into a reusable Faircreek format for future modules.", when: "End of year 1" }
+      { n: 5, owner: "Dr. T + Matt + volunteers", text: "Build the two-year calendar — Year One rooting practices (apprenticeship, Scripture, prayer, community) first, then Year Two (serving, witness, generosity).", when: "After discovery" },
+      { n: 6, owner: "Each module", text: "Capture curriculum artifacts — notes, outlines, resource links, session patterns.", when: "Throughout" },
+      { n: 7, owner: "ASF team", text: "Reconcile into a reusable Faircreek format as each year closes.", when: "End of each year" }
     ],
     decisions: [
       { q: "Adult age threshold", note: "Does the pathway begin at 16, 18, or another age? Modern attention patterns affect younger adults strongly." },
