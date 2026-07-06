@@ -6,7 +6,7 @@
 window.PATHWAY = {
   title: "Building a Formation Pathway",
   subtitle:
-    "We aren't reaching for another curriculum. We're forming an enduring path that helps adults at Faircreek learn, practice, and abide in the rhythms of life with Christ — and we invite you to help shape it.",
+    "We're not choosing another curriculum. We're building a reproducible way to help adults at Faircreek learn, practice, and sustain the rhythms of life with Christ — and we want to build it with you.",
   intro:
     "This is a working sketch, not a finished plan. It names where we think God is leading, the gaps we sense, and a two-year approach. Everything here is meant to be tested, added to, and reshaped by the passions and strengths of the leaders who join. Come help us discover what Faircreek adults need — and where you might serve.",
 
@@ -167,11 +167,11 @@ window.PATHWAY = {
     sub:
       "Enough shape to move, not so much that it's decided. The pilot calendar gets built together, after we hear from you.",
     steps: [
-      { n: 1, owner: "Dr. T", text: "Meet with Matt to agree on purpose, invitation source, and facilitation role.", when: "Now" },
-      { n: 2, owner: "Dr. T + Matt", text: "Draft a one-page “why this meeting / what we expect” page.", when: "Before invites" },
+      { n: 1, owner: "Steve Thorsen", text: "Meet with Matt to agree on purpose, invitation source, and facilitation role.", when: "Now" },
+      { n: 2, owner: "Steve Thorsen + Matt", text: "Draft a one-page “why this meeting / what we expect” page.", when: "Before invites" },
       { n: 3, owner: "Matt", text: "Invite the exploratory group — elders & wives, former elders, deacon-like leaders, potential teachers.", when: "~5-week window" },
-      { n: 4, owner: "Dr. T", text: "Facilitate the discovery meeting — written needs, passions, possible teachers, first modules.", when: "When scheduled" },
-      { n: 5, owner: "Dr. T + Matt + volunteers", text: "Build the two-year calendar — Year One rooting practices (apprenticeship, Scripture, prayer, community) first, then Year Two (serving, witness, generosity).", when: "After discovery" },
+      { n: 4, owner: "Steve Thorsen", text: "Facilitate the discovery meeting — written needs, passions, possible teachers, first modules.", when: "When scheduled" },
+      { n: 5, owner: "Steve Thorsen + Matt + volunteers", text: "Build the two-year calendar — Year One rooting practices (apprenticeship, Scripture, prayer, community) first, then Year Two (serving, witness, generosity).", when: "After discovery" },
       { n: 6, owner: "Each module", text: "Capture curriculum artifacts — notes, outlines, resource links, session patterns.", when: "Throughout" },
       { n: 7, owner: "ASF team", text: "Reconcile into a reusable Faircreek format as each year closes.", when: "End of each year" }
     ],
