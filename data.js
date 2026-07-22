@@ -71,9 +71,9 @@ window.PATHWAY = {
   model: {
     eyebrow: "A Two-Year Approach",
     sub:
-      "Short, repeatable modules led by spiritually credible people, sequenced across two years. Familiar enough that participants know what to expect — flexible enough that teacher passion and emphasis can vary.",
+      "Short, repeatable modules led by spiritually credible people, sequenced across two years. Foundations provides a three-week course rhythm; broader ASF modules may run three to six weeks as the subject and teacher capacity require.",
     cards: [
-      { k: "6", title: "Six-week modules", note: "The preferred working unit. Co-leaders may split the load — three weeks each as a minimum contribution." },
+      { k: "3–6", title: "Right-sized modules", note: "Foundations courses run three weeks. Broader ASF modules may use three to six weeks according to subject, outcomes, and leader capacity." },
       { k: "2", title: "Two-year arc", note: "Year One roots people in the way of Jesus (apprenticeship, Scripture, prayer, community); Year Two sends them outward (serving, witness, generosity)." },
       { k: "★", title: "Let leaders lead", note: "We give support, a template, and a clear outcome — but don't over-control style or content in the pilot." },
       { k: "↻", title: "Build toward replication", note: "As each year closes we gather notes, outlines, and lessons into a reusable Faircreek format — replication, not uniformity." }
@@ -85,13 +85,13 @@ window.PATHWAY = {
   // Foundations as scaffold
   foundations: {
     eyebrow: "An Idea Scaffold to Adapt",
-    title: "Our existing Foundations series is one input — not the blueprint.",
+    title: "Foundations is our first-year curriculum spine — not the whole pathway.",
     body:
-      "Foundations (four classes, twelve weeks on the essentials of following Jesus) already exists and can be scaled down, added to, or subtracted from as we build this pathway. Think of it as a scaffold: useful structure and tested content we can adapt, review for fit, and fold into the larger formation aim — not a fixed architecture we're locked into.",
+      "Foundations now includes six three-week courses, 18 weekly gatherings, and 54 short teaching sessions. Faircreek's recommended newcomer sequence is: How to Follow Jesus; Understanding the Story of the Bible; Understanding Who God Is; Understanding Your New Identity; How to Establish Spiritual Habits; and How to Read the Bible Well. The courses remain flexible enough to offer independently or in rotation. Together they provide a practical first-year spine, while the larger formation pathway extends into local apprenticeship, prayer, community, service, witness, generosity, and other practices.",
     linkLabel: "View the Foundations roadmap",
     linkHref: "https://snthor-phd.github.io/FCC-Foundations-Roadmap/",
     otherResources:
-      "Other candidates — North Point Foundations, BibleProject, and Practicing the Way — will be reviewed the same way: for theology, maturity fit, usefulness, and resource intensity. The question is never “Which curriculum do we buy?” but “What pathway are we building, and which resources help it?”"
+      "The Foundations curriculum from The Irresistible Church Network, BibleProject, and Practicing the Way should each be reviewed for theology, maturity fit, usefulness, and resource intensity. The question is never “Which curriculum do we buy?” but “What pathway are we building, and which resources help it?”"
   },
 
   // Resources mapped to the practices
@@ -171,14 +171,14 @@ window.PATHWAY = {
       { n: 2, owner: "Steve Thorsen + Matt", text: "Draft a one-page “why this meeting / what we expect” page.", when: "Before invites" },
       { n: 3, owner: "Matt", text: "Invite the exploratory group — elders & wives, former elders, deacon-like leaders, potential teachers.", when: "~5-week window" },
       { n: 4, owner: "Steve Thorsen", text: "Facilitate the discovery meeting — written needs, passions, possible teachers, first modules.", when: "When scheduled" },
-      { n: 5, owner: "Steve Thorsen + Matt + volunteers", text: "Build the two-year calendar — Year One rooting practices (apprenticeship, Scripture, prayer, community) first, then Year Two (serving, witness, generosity).", when: "After discovery" },
+      { n: 5, owner: "Steve Thorsen + Matt + volunteers", text: "Build the pilot calendar — use the six-course Foundations spine where it serves the pathway, then extend into locally led formation modules.", when: "After discovery" },
       { n: 6, owner: "Each module", text: "Capture curriculum artifacts — notes, outlines, resource links, session patterns.", when: "Throughout" },
       { n: 7, owner: "ASF team", text: "Reconcile into a reusable Faircreek format as each year closes.", when: "End of each year" }
     ],
     decisions: [
       { q: "Adult age threshold", note: "Does the pathway begin at 16, 18, or another age? Modern attention patterns affect younger adults strongly." },
       { q: "Women & leadership", note: "Clarify Faircreek's working assumptions before launch — it affects who teaches, facilitates, and models." },
-      { q: "First module length", note: "Six weeks is the standard, but Scripture may warrant a longer eight-week opening module." },
+      { q: "Module length", note: "Foundations courses run three weeks; decide when broader formation topics need four to six weeks." },
       { q: "Public statistics", note: "Verify the Bible-engagement statistic before using it from the pulpit or in invitations." },
       { q: "Curriculum minimums", note: "Define what each leader hands back: notes, outline, session plan, links, or full written material." },
       { q: "Parallel classes", note: "Can two Sunday-morning modules run at once? What room, teacher, and childcare constraints apply?" }

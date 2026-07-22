@@ -13,6 +13,8 @@ around the passions and strengths of the leaders who join.
 
 - **`index.html`** — the page. Renders everything from `data.js`.
 - **`data.js`** — all content lives here as `window.PATHWAY`. Edit this to update the site; no build step.
+- **`Faircreek_ASF_Integrated_Planning_Brief_v2.pdf`** — the leadership briefing aligned to the current six-course Foundations roadmap
+- **`build_brief.py`** — reproducible source for the Version 2 planning brief
 - **`.nojekyll`** — tells GitHub Pages to serve files as-is.
 
 ## Sections
@@ -21,8 +23,8 @@ around the passions and strengths of the leaders who join.
 2. **The formation ecology** — seven core practices, tagged by year: Year One (Apprenticeship/The Way, Scripture, Prayer, Community) and Year Two (Serving, Personal Testimony/Witness, Generosity)
 3. **The two-year roadmap** — Year One "Rooted" and Year Two "Sent"
 4. **Gaps we sense** at Faircreek
-5. **A two-year approach** — short, repeatable, leader-led six-week modules
-6. **Foundations as an idea scaffold** — our existing series, to adapt / scale / fold in
+5. **A two-year approach** — short, repeatable, leader-led three-to-six-week modules
+6. **Foundations as a first-year curriculum spine** — six courses, 18 weeks, and 54 teaching sessions
 7. **Resources ↔ Practices** — mapping table (Foundations / BibleProject / Practicing the Way), plus Sabbath, Solitude, Fasting under review
 8. **Our first conversation** — the discovery/reflection prompts
 9. **The plan, sketched** — action steps and open decisions
