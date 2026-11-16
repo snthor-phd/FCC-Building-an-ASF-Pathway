@@ -36,6 +36,23 @@ Edit `data.js` (and re-upload via the GitHub web UI). The page reads content fro
 `window.PATHWAY` at load, so no rebuild is needed. This document is expected to change as the
 pathway is built.
 
+## Milk-to-meat working documents (Nov 2026)
+
+`milk-to-meat/` holds the current discussion set from the FCC-ASF Google Drive folder, exported 14 Nov 2026. Google Docs come as PDF plus Markdown; the deck and the Drive-native PDFs come as PDF only. Drive stays the master copy — re-export here when they change.
+
+| # | Document | Files |
+|---|----------|-------|
+| 01 | Milk to Meat — Briefing and Current Map (deck) | `.pdf` |
+| 02 | ASF Milk-to-Meat Continuum Map | `.pdf`, `.md` |
+| 03 | ASF Milk to Meat Continuum and Adult Path | `.pdf`, `.md` |
+| 04 | LDP and Our Milk-to-Meat Continuum — How They Fit | `.pdf`, `.md` |
+| 05 | From Milk to Meat — LDP Chapter | `.pdf` |
+| 06 | LDP Milk-to-Meat Transformation Map | `.pdf` |
+| 07 | Faircreek ASF — Where We Stand and Where We Go | `.pdf`, `.md` |
+| 08 | ASF Addendum — Forgiveness, Reconciliation and Restoration | `.pdf` |
+
+LDP = Faircreek's Leadership Development Program (the Leadership Development Groups on the Discipleship Flywheel).
+
 ## Related
 
 - **Foundations roadmap** (an input to adapt): https://snthor-phd.github.io/FCC-Foundations-Roadmap/
